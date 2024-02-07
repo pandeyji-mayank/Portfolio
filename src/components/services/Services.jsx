@@ -33,23 +33,26 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          focus on helping your brand grow
-          <br /> and move forward
+          Dream is not that which you see while sleeping
+          <br /> it is something that does not let you sleep - APJ Kalam
         </p>
         <hr />
       </motion.div>
       <div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/people.webp" alt="" />
+          <img src="/college.jpg" alt="" />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Platform</motion.b>{" "}
+            Standings
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Buisness
-            <button>What we do?</button>
+            <motion.b whileHover={{ color: "orange" }}>Knew More</motion.b>{" "}
+            About Me
+            <a href="https://drive.google.com/file/d/1ragnbrmAVyXK_S3K8VEvHG7bGSGM7cVz/view?usp=sharing">
+              <button>View Resume</button>
+            </a>
           </h1>
         </div>
       </div>
@@ -58,53 +61,50 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Code Forces</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            fuga illo enim saepe tempora, tempore error dignissimos debitis, ab
-            autem delectus repudiandae consequatur atque ex placeat. Sunt
-            repudiandae harum expedita.
+            Codeforces Expert, with my account, redinside, achieved 554 rank in
+            Div 2, 363 rank in Div 3, and boasts a max rating of 1631,
+            showcasing exceptional proficiency in competitive programming.
           </p>
-          <button>Go</button>
+          <a href="https://codeforces.com/profile/redinside">Go</a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Code Chef</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            fuga illo enim saepe tempora, tempore error dignissimos debitis, ab
-            autem delectus repudiandae consequatur atque ex placeat. Sunt
-            repudiandae harum expedita.
+            CodeChef standout, hiddeniiitian, shines with a 5-star rating,
+            demonstrating exceptional problem-solving skills and algorithmic
+            expertise in competitive programming challenges.
           </p>
-          <button>Go</button>
+          <a href="https://www.codechef.com/users/hiddeniiitian">Go</a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Leet Code</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            fuga illo enim saepe tempora, tempore error dignissimos debitis, ab
-            autem delectus repudiandae consequatur atque ex placeat. Sunt
-            repudiandae harum expedita.
+            LeetCode standout, with the handle hiddeniiitan, commands a
+            remarkable 2125 rating, placing in the top 1.5% globally, showcasing
+            elite problem-solving skills in algorithmic challenges.
           </p>
-          <button>Go</button>
+          <a href="https://leetcode.com/hiddeniiitan/">Go</a>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>At Coder</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            fuga illo enim saepe tempora, tempore error dignissimos debitis, ab
-            autem delectus repudiandae consequatur atque ex placeat. Sunt
-            repudiandae harum expedita.
+            AtCoder enthusiast, bearing the handle greenCoder, attains a
+            commendable 1048 rating and holds the prestigious 5 kyu rank,
+            marking expertise in algorithmic problem-solving within the AtCoder
+            community.
           </p>
-          <button>Go</button>
+          <a href="https://atcoder.jp/users/hiddeniiitian">Go</a>
         </motion.div>
       </div>
     </motion.div>

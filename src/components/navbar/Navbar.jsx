@@ -12,7 +12,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Lama Dev
+          Mayank's Portfolio
         </motion.span>
         <motion.div
           className="social"
@@ -20,17 +20,14 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <a href="#">
-            <img src="/facebook.png" />
+          <a href="https://www.codechef.com/users/hiddeniiitian">
+            <img src="/codechef.jpeg" />
           </a>
-          <a href="#">
+          <a href="https://github.com/pandeyji-mayank">
+            <img src="/github.jpeg" />
+          </a>
+          <a href="https://www.instagram.com/pandey_ji_mayank/">
             <img src="/instagram.png" />
-          </a>
-          <a href="#">
-            <img src="/youtube.png" />
-          </a>
-          <a href="#">
-            <img src="/dribbble.png" />
           </a>
         </motion.div>
       </div>

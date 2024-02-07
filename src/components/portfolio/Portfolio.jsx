@@ -4,33 +4,17 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/19186031/pexels-photo-19186031/free-photo-of-people-on-pavement-in-alley-in-turkey.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus blanditiis laboriosam voluptates id nulla omnis, velit labore ea vero animi asperiores fuga eligendi recusandae, molestiae pariatur consequatur provident accusamus?",
+    title: "TV Flix",
+    img: "/tvflix.png",
+    desc: "This project seamlessly combines frontend technologies (HTML, CSS, JavaScript) with backend functionality via the TMDB API. Users can explore a diverse range of movies, sorted by genres and language preferences. The search bar allows for quick access to specific films, while the recommendation system enhances the user experience by suggesting movies tailored to individual tastes. The incorporation of TMDB API keys ensures up-to-date and extensive movie information, offering a user-friendly and engaging platform for movie enthusiasts.",
+    link: "https://pandeyji-mayank.github.io/Tvflix---movie/",
   },
   {
     id: 2,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/19186031/pexels-photo-19186031/free-photo-of-people-on-pavement-in-alley-in-turkey.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus blanditiis laboriosam voluptates id nulla omnis, velit labore ea vero animi asperiores fuga eligendi recusandae, molestiae pariatur consequatur provident accusamus?",
-  },
-  {
-    id: 3,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/19186031/pexels-photo-19186031/free-photo-of-people-on-pavement-in-alley-in-turkey.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus blanditiis laboriosam voluptates id nulla omnis, velit labore ea vero animi asperiores fuga eligendi recusandae, molestiae pariatur consequatur provident accusamus?",
-  },
-  {
-    id: 4,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/19186031/pexels-photo-19186031/free-photo-of-people-on-pavement-in-alley-in-turkey.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus blanditiis laboriosam voluptates id nulla omnis, velit labore ea vero animi asperiores fuga eligendi recusandae, molestiae pariatur consequatur provident accusamus?",
-  },
-  {
-    id: 5,
-    title: "React Commerce",
-    img: "https://images.pexels.com/photos/19186031/pexels-photo-19186031/free-photo-of-people-on-pavement-in-alley-in-turkey.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas doloribus blanditiis laboriosam voluptates id nulla omnis, velit labore ea vero animi asperiores fuga eligendi recusandae, molestiae pariatur consequatur provident accusamus?",
+    title: "Dear Diary",
+    img: "/deardiary.png",
+    desc: "Dear Diary is a Flask-based web application with a Jinja-powered, CSS-styled interface and SQL as the database, offering users a secure space to share their thoughts with the world. Featuring robust user authentication, the platform facilitates CRUD operations, enabling the creation, reading, updating, and deletion of diary entries. The intuitive diary interface encourages personalized expression, while a global sharing option allows users to make their entries public. With a responsive design, privacy settings, and a search functionality, Dear Diary aims to be a versatile and engaging platform for users to connect and share their stories across the globe.",
+    link: "https://diary-xxa7.onrender.com/",
   },
 ];
 const Single = ({ item }) => {
@@ -53,7 +37,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{ y }}>
             <motion.h2>{item.title}</motion.h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <a href={item.link}>See Demo</a>
           </motion.div>
         </div>
       </div>

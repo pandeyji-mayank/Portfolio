@@ -107,15 +107,21 @@
         padding: 10px;
       }
       p {
+        // text-align: justify;
         @include mobile {
           display: none;
         }
       }
-      button {
+      a {
+        text-align: center;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
         padding: 10px;
         background-color: orange;
         border: none;
         cursor: pointer;
+        color: #111132;
         @include mobile {
           background-color: transparent;
           border: 1px solid orange;
