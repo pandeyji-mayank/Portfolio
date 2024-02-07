@@ -3,7 +3,7 @@ import "./services.scss";
 import { motion, useInView } from "framer-motion";
 const variants = {
   initial: {
-    x: -500,
+    x: -100,
     y: 100,
     opacity: 0,
   },
@@ -67,7 +67,10 @@ const Services = () => {
           </p>
           <button>Go</button>
         </motion.div>
-        <div className="box">
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
           <h2>Branding</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -76,8 +79,11 @@ const Services = () => {
             repudiandae harum expedita.
           </p>
           <button>Go</button>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
           <h2>Branding</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -86,8 +92,11 @@ const Services = () => {
             repudiandae harum expedita.
           </p>
           <button>Go</button>
-        </div>
-        <div className="box">
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
           <h2>Branding</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -96,7 +105,7 @@ const Services = () => {
             repudiandae harum expedita.
           </p>
           <button>Go</button>
-        </div>
+        </motion.div>
       </div>
     </motion.div>
   );

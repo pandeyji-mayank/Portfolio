@@ -20,6 +20,7 @@ const variants = {
 
 const Contact = () => {
   const ref = useRef();
+
   const formRef = useRef();
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
@@ -27,7 +28,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("service_y82k0z4", "template_32pl2bi", form.current, {
+      .sendForm("service_y82k0z4", "template_32pl2bi", formRef.current, {
         publicKey: "t5aB7rvTSy-Q0CzWT",
       })
       .then(
