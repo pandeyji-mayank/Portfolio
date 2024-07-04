@@ -1,6 +1,11 @@
 import { useRef } from "react";
+import React from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
+import StarIcon from '@mui/icons-material/Star';
+
+
+
 const variants = {
   initial: {
     x: -100,
@@ -48,7 +53,7 @@ const Services = () => {
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Knew More</motion.b>{" "}
+            <motion.b whileHover={{ color: "orange" }}>Know More</motion.b>{" "}
             About Me
             <a href="https://drive.google.com/file/d/1ragnbrmAVyXK_S3K8VEvHG7bGSGM7cVz/view?usp=sharing">
               <button>View Resume</button>
@@ -61,9 +66,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Code Forces</h2>
+          <h2>Codeforces Expert</h2>
           <p>
-            Codeforces Expert, with my account, redinside, achieved 554 rank in
+            Codeforces <b>Expert</b>, with my account, redinside, achieved 554 rank in
             Div 2, 363 rank in Div 3, and boasts a max rating of 1631,
             showcasing exceptional proficiency in competitive programming.
           </p>
@@ -73,9 +78,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Code Chef</h2>
+          <h2>CodeChef   5 <StarIcon ></StarIcon> </h2>
           <p>
-            CodeChef standout, hiddeniiitian, shines with a 5-star rating,
+            CodeChef standout, hiddeniiitian, shines with a <b>5-star rating,</b>
             demonstrating exceptional problem-solving skills and algorithmic
             expertise in competitive programming challenges.
           </p>
@@ -85,11 +90,11 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Leet Code</h2>
+          <h2>LeetCode Guardian</h2>
           <p>
             LeetCode standout, with the handle hiddeniiitan, commands a
-            remarkable 2125 rating, placing in the top 1.5% globally, showcasing
-            elite problem-solving skills in algorithmic challenges.
+            remarkable 2290 rating, placing in the <b>top 0.71%</b> globally, showcasing
+            elite problem-solving skills in algorithmic challenges, wearing a <b>Guardian</b> Badge.
           </p>
           <a href="https://leetcode.com/hiddeniiitan/">Go</a>
         </motion.div>
@@ -97,10 +102,10 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>At Coder</h2>
+          <h2>AtCoder Cyan</h2>
           <p>
             AtCoder enthusiast, bearing the handle greenCoder, attains a
-            commendable 1048 rating and holds the prestigious 5 kyu rank,
+            commendable 1204 rating and holds the prestigious 4 kyu rank,
             marking expertise in algorithmic problem-solving within the AtCoder
             community.
           </p>
