@@ -104,7 +104,7 @@ const Services = () => {
         >
           <h2>AtCoder Cyan</h2>
           <p>
-            AtCoder enthusiast, bearing the handle greenCoder, attains a
+            AtCoder enthusiast, bearing the handle cyanCoder, attains a
             commendable 1204 rating and holds the prestigious 4 kyu rank,
             marking expertise in algorithmic problem-solving within the AtCoder
             community.
